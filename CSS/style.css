@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #7a7a7a;
+}
+.areaPrincipal {
+    background-image: url("../img/Fondo-local.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center; /* Centra la imagen */
+}
+
+#encabezado {
+    background: #d0e6f8;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/Logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    background-position: center; /* Centra el logo */
+}
+.piePagina {
+    width: 100%; /* ancho */
+    height: 100px; /* alto */
+    background: #15101b; /* Color de fondo */
+    color: white; /* Color de letra dentro de la clase */
+    bottom: 0; /* Espacio de separación parte inferior */
+    position: fixed;
+    left: 0; /* Alineación de contenidos a la izquierda */
+}
+
+#menu {
+    height: 40px;
+    width: 100%;  /* Para que ocupe el ancho completo de la pantalla */
+    position: relative;
+    top: 0; /* Asegura que no se desplace hacia abajo */
+    z-index: 1; /* Para que quede por encima del contenido si es necesario */
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+#datos {
+    width: 80%;
+    background-color: #88e94f;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: #2a3e55;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

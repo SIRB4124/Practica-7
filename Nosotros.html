@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiénes Somos - Hamburguesería La Chingada</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Asegúrate de que el archivo CSS tenga esta ruta -->
+    <style>
+        /* Estilos CSS adicionales para esta página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77cc70 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        #showcase {
+            background: url('img/fondo-hamburguesa.jpg') no-repeat center center/cover;
+            color: #fff; /* Cambia este color para el texto del contenedor #showcase */
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+            color: #ff6347; /* Cambia el color del texto del título (h1) */
+        }
+        #showcase p {
+            font-size: 20px;
+            color: #ffd700; /* Cambia el color del texto del párrafo (p) */
+        }
+        #about {
+            padding: 20px;
+            background: #e2e2e2;
+            color: #333;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        #about h2 {
+            text-align: center;
+        }
+        #about p {
+            line-height: 1.6;
+        }
+        .values {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .values div {
+            width: 30%;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: #77cc70 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Hamburguesería</span> La Chingada</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Página principal">Inicio</a></li>
+                    <li><a href="Nosotros.html" title="descripción del negocio">Nosotros</a></li>
+                    <li><a href="catalogo.html" title="Catálogo">Nuestros productos</a></li>
+                    <li><a href="Galeria.html" title="Fotos">Galería</a></li>
+                    <li><a href="contacto.html" title="Nuestros datos">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección principal -->
+    <section id="showcase">
+        <div class="container">
+            <h1>¡Bienvenidos a la Hamburguesería La Chingada!</h1>
+            <p>Las mejores hamburguesas de la ciudad, con ingredientes frescos y un sabor inigualable.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Quiénes Somos</h2>
+            <p>En la Hamburguesería La Chingada, nos dedicamos a crear experiencias gastronómicas únicas con cada hamburguesa que servimos. Desde nuestro inicio en el año 2015, hemos buscado no solo satisfacer a nuestros clientes con productos de calidad, sino también construir una comunidad donde todos sean bienvenidos.</p>
+            <p>Nuestra misión es ofrecer hamburguesas artesanales con ingredientes frescos y de la más alta calidad, siempre priorizando el sabor y la satisfacción de nuestros comensales. Queremos que cada visita a nuestro local sea un momento para recordar.</p>
+            <p>Con una visión clara de expandirnos a nivel nacional, seguimos trabajando duro para mejorar y llevar nuestras hamburguesas a más personas. Nos mantenemos fieles a nuestros valores de calidad, servicio y pasión por lo que hacemos.</p>
+        </div>
+
+        <!-- Sección de valores -->
+        <div class="values container">
+            <div>
+                <h3>Misión</h3>
+                <p>Brindar experiencias culinarias únicas a través de nuestras hamburguesas artesanales, utilizando siempre los mejores ingredientes y un servicio excepcional.</p>
+            </div>
+            <div>
+                <h3>Visión</h3>
+                <p>Ser la hamburguesería de referencia en el país, reconocida por la calidad de nuestros productos y la satisfacción de nuestros clientes.</p>
+            </div>
+            <div>
+                <h3>Valores</h3>
+                <p>Pasión, integridad, calidad y compromiso son los pilares que nos guían en cada paso de nuestro crecimiento.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Hamburguesería La Chingada &copy; 2024. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
